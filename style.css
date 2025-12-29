@@ -36,6 +36,10 @@ header{
   position:relative;height:100vh;display:flex;justify-content:center;align-items:center;
   overflow:hidden;color:#fff;text-align:center;padding:0 20px;
 }
+#hero-canvas{
+  position:absolute;
+  top:0;left:0;width:100%;height:100%;z-index:1;
+}
 .hero-text{
   position:relative;z-index:3;
   transition:transform 0.2s ease-out;
@@ -91,7 +95,7 @@ footer{padding:30px;background:#111;color:#fff;text-align:center;margin-top:50px
   flex-direction:column;color:#fff;z-index:9999;
 }
 #loading canvas{
-  width:200px;  /* بزرگتر برای مشاهده Cube */
+  width:200px;
   height:200px;
   display:block;
   margin-bottom:20px;
